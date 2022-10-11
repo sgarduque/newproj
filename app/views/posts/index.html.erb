@@ -1,15 +1,15 @@
 <p style="color: green"><%= notice %></p>
 <div class="container">
-<h1>Posts</h1>
+<h1>Projects</h1>
 
 <div id="posts">
   <% @posts.each do |post| %>
     <%= render post %>
     <p>
-      <%= link_to "Show this post", post %>
+      <%= link_to "Show more...", post %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New post", new_post_path %>
+<%= link_to "New project", new_post_path %>
 </div>
